@@ -1,0 +1,39 @@
+{
+  "name": "storybook-testing-lit-vitest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@8.19.2",
+  "scripts": {
+    "test": "vitest",
+    "storybook": "npx storybook dev -p 6006",
+    "build-storybook": "npx storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterashima78/storybook-testing-lit-vitest.git"
+  },
+  "dependencies": {
+    "deepmerge": "4.2.2",
+    "lit": "2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.19.1",
+    "@storybook/addon-essentials": "7.0.0-alpha.33",
+    "@storybook/addon-interactions": "6.5.12",
+    "@storybook/addon-links": "7.0.0-alpha.33",
+    "@storybook/jest": "0.0.10",
+    "@storybook/testing-library": "0.0.13",
+    "@storybook/web-components": "7.0.0-alpha.33",
+    "@storybook/web-components-webpack5": "7.0.0-alpha.33",
+    "babel-loader": "8.2.5",
+    "happy-dom": "6.0.4",
+    "jest-mock": "29.0.3",
+    "lit-html": "2.3.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "storybook": "7.0.0-alpha.33",
+    "typescript": "4.8.3",
+    "vitest": "0.23.4"
+  }
+}
